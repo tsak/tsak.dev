@@ -1,0 +1,14 @@
+{
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/__tsak__",
+      "image": "images/social/twitter.svg"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/tsak",
+      "image": "images/social/github.svg"
+    }
+  ]
+}

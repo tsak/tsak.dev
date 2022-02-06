@@ -1,0 +1,25 @@
+baseURL = "https://tsak.dev/"
+languageCode = "en-gb"
+title = "tsak.dev"
+theme = "hugo-winston"
+themesDir = "themes"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+paginate = 3
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@__tsak__"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showPostsOnHomepage = true
+  addFrame = true
+  addDot = true
+

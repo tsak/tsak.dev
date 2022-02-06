@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer on tsak.dev</title>
+    <link>https://tsak.dev/tags/computer/</link>
+    <description>Recent content in computer on tsak.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://tsak.dev/tags/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I hate your code challenge</title>
+      <link>https://tsak.dev/posts/i-hate-your-code-challenge/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tsak.dev/posts/i-hate-your-code-challenge/</guid>
+      <description>I recently applied for an engineering management position at a maturing startup. The initial interview was great. We went an hour over the allotted time, and it felt like a friendly and meaningful conversation. In the end, the interviewer asked me if I would rather manage an existing team or kick-start a new one. I went for the second option and was looking forward to the next step in the process.</description>
+    </item>
+    
+  </channel>
+</rss>
