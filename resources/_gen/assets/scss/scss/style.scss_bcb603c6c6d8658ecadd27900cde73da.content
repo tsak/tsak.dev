@@ -181,6 +181,8 @@ ul {
   .content code,
   .content pre {
     font-family: var(--font-family-monospace); }
+  .content p code {
+    color: #e01e5a; }
   .content .highlight pre {
     border-radius: 3px;
     font-size: 14px;

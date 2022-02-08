@@ -131,6 +131,9 @@ ul {
   pre {
     font-family: var(--font-family-monospace);
   }
+  p code {
+    color: #e01e5a;
+  }
   .highlight {
     pre {
       border-radius: 3px;
