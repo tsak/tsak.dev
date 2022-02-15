@@ -14,7 +14,7 @@ Stalk me on [Github](https://github.com/tsak). [This blog](https://github.com/ts
 
 ## Projects
 
-- [tsak.net](https://tsak.net/)
+- [tsak.net](https://tsak.net/) (keep reloading)
 - [Draw](https://draw.tsak.net/)
 - [Coronacount](https://cc.tsak.net/) ([source](https://github.com/tsak/coronacount))
 - [Chloe](https://chloe.tsak.net/) ([source](https://github.com/tsak/chloe))
