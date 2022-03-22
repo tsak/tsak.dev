@@ -3,7 +3,7 @@ title: Correct file ownership when mounting local folders in Docker on Linux
 date: 2022-03-22
 image: images/whale.png
 description: 'How to avoid running containers as root and other Linux file ownership related issues when mounting local folders into Docker containers'
-tags: ['docker', 'linux', 'permissions', 'npm', 'eacces']
+tags: ['docker', 'linux', 'ownership', 'npm', 'eacces']
 ---
 
 I just joined a new company. Our local development happens by launching multiple containers via [docker compose](https://docs.docker.com/compose/cli-command/). Most of the existing developers are using Mac OS and Docker Desktop. This means mounting local folders into a container does not result in the same behaviour as doing so on Linux, which is my operating system of choice.
