@@ -54,14 +54,11 @@ body {
 .tags {
   list-style: none;
   li {
-    float: left;
+    display: inline-block;
     margin-right: 1em;
   }
-  li::before {
+  li:before {
     content: '#';
     color: silver;
-  }
-  &::after {
-    float: none;
   }
 }
