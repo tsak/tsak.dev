@@ -39,7 +39,15 @@ These have to be inserted **after** `set gfxmode=${GRUB_GFXMODE}`
 
 *Comments for what the individual calls to `outb` do are taken from [here](https://help.ubuntu.com/community/MacBookPro8-2/Raring).*
 
-**4. Reboot**
+**4. Update grub**
+
+This will write your changes to Grub's boot config and will run the commands from above next time you boot.
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+**5. Reboot**
 
 ```bash
 sudo poweroff --reboot
