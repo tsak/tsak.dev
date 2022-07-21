@@ -1,4 +1,4 @@
-.PHONY: write build publish clean
+.PHONY: write build compress publish clean
 
 write:
 	hugo server --disableFastRender --buildDrafts 
@@ -6,7 +6,10 @@ write:
 build:
 	hugo --verbose
 
-publish: build
+compress: build
+	find ./public \( -name "*.html" -or -name "*.xml" -or -name "*.css" -or -name "*.js" \) -exec gzip --verbose --keep --force {} \;
+
+publish: build compress
 	rsync --archive --progress ./public/ nuc:/home/htdocs/tsak.dev/
 
 clean:
