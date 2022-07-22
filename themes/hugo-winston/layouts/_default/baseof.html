@@ -43,6 +43,7 @@
     {{ end }}
     {{ partial "footer.html" . }}
   </div>
+{{/*
 
   {{ $scripts := resources.Get "js/scripts.js" }}
 
@@ -54,6 +55,7 @@
   <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
 
+*/}}
   {{ block "footer_js" . }}
   {{ end }}
 
