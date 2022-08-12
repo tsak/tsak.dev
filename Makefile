@@ -10,7 +10,7 @@ compress: build
 	find ./public \( -name "*.html" -or -name "*.xml" -or -name "*.css" -or -name "*.js" \) -exec gzip --verbose --keep --force {} \;
 
 publish: build compress
-	rsync --archive --progress ./public/ nuc:/home/htdocs/tsak.dev/
+	rsync --archive --progress --delete ./public/ nuc:/home/htdocs/tsak.dev/
 
 clean:
 	rm -Rf ./resources/_gen ./public
