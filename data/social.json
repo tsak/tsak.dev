@@ -1,9 +1,9 @@
 {
   "links": [
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/__tsak__",
-      "image": "images/social/twitter.svg"
+      "name": "GoToSocial (Mastodon)",
+      "url": "https://social.tsak.net/@tsak",
+      "image": "images/social/gotosocial.svg"
     },
     {
       "name": "Github",
