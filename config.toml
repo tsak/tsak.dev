@@ -23,3 +23,5 @@ paginate = 3
   addFrame = true
   addDot = true
 
+[markup.goldmark.renderer]
+unsafe = true

@@ -11,6 +11,9 @@
       {{ if .Params.image }}
       <img src="{{ .Params.image | relURL }}" />
       {{ end }}
+      {{ if .Params.caption }}
+      <caption>{{ .Params.caption }}</caption>
+      {{ end }}
     </div>
     <div class="content">
       {{ .Content }}
