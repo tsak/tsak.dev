@@ -9,7 +9,7 @@ tags: ['nginx', 'curl', 'business-card']
 A [friend of mine](https://martincarlin.uk/) recently showed me his curl-able business card inspired by this 
 [Cloudflare worker template](https://github.com/Gaafar/curl-worker).
 
-I liked the idea of returning something similar when running `curl tsak.dev`, but using Cloudflare
+I liked the idea of returning something similar when running `curl tsak.net`, but using Cloudflare
 workers or any other complicated stack for that matter felt a bit like overkill to me. After all, I'm
 hosting my blog at home, using nginx.
 
@@ -30,7 +30,7 @@ by default redirects any requests to the SSL encrypted version of the site, unle
 curl or HTTPie.
 
 ```
-$ curl tsak.dev
+$ curl tsak.net
 
   ▀█▀ █▀ ▄▀█ █▄▀ ░ █▀▄ █▀▀ █░█
   ░█░ ▄█ █▀█ █░█ ▄ █▄▀ ██▄ ▀▄▀
@@ -42,3 +42,5 @@ $ curl tsak.dev
   Github: https://github.com/tsak
 ```
 
+**Update:** Having since moved my blog to Cloudflare Pages, I've moved the curl-goodness to `tsak.net`.
+Examples have been amended, but the screenshot and response stay the same.
