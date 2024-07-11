@@ -21,7 +21,7 @@ I include the following config (note the `\n` to insert line-breaks):
 
 ```
 if ($http_user_agent ~ "^(curl|HTTPie)") {
-        return 200 "\n  ▀█▀ █▀ ▄▀█ █▄▀ ░ █▀▄ █▀▀ █░█\n  ░█░ ▄█ █▀█ █░█ ▄ █▄▀ ██▄ ▀▄▀\n\n  satan's hackathon boilerplate\n  shitpit co-lead developer\n\n  Blog: https://tsak.dev\n  Github: https://github.com/tsak\n\n";
+        return 200 "\n  ▀█▀ █▀ ▄▀█ █▄▀ ░ █▀▄ █▀▀ █░█\n  ░█░ ▄█ █▀█ █░█ ▄ █▄▀ ██▄ ▀▄▀\n\n  satan's hackathon boilerplate\n  shitpit co-lead developer\n\n  Blog: https://tsak.dev\n  Codeberg: https://codeberg.org/tsak\n\n";
 }
 ```
 
@@ -39,8 +39,10 @@ $ curl tsak.net
   shitpit co-lead developer
 
   Blog: https://tsak.dev
-  Github: https://github.com/tsak
+  Codeberg: https://codeberg.org/tsak
 ```
 
 **Update:** Having since moved my blog to Cloudflare Pages, I've moved the curl-goodness to `tsak.net`.
 Examples have been amended, but the screenshot and response stay the same.
+
+**Update 2:** Updated Github link to Codeberg in the text, though the screenshot still shows the original link.
