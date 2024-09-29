@@ -7,7 +7,7 @@ themesDir = "themes"
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
-paginate = 3
+paginate = 10
 
 [module]
   [module.hugoVersion]
