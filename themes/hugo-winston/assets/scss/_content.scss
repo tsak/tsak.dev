@@ -17,7 +17,7 @@ h3 {
 p {
   color: var(--text-color);
   font-family: var(--font-family-paragraph);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
 }
 
@@ -32,9 +32,9 @@ ul {
 }
 
 .content {
-  font-size: 18px;
+  font-size: 20px;
   p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -78,7 +78,7 @@ ul {
     margin-bottom: 20px;
     // list-style: disc;
     li {
-      font-size: 18px;
+      font-size: 20px;
       line-height: 20px;
       margin-bottom: 10px;
       margin-left: 0;
@@ -99,11 +99,15 @@ ul {
     border-left: 5px solid var(--highlight-color);
     margin: 30px 0;
     padding: 20px;
+    font-style: italic;
   }
   blockquote p {
     font-size: 20px;
-    display: inline;
     color: var(--color-base-text);
+    margin-bottom: 1em;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
   img {
     margin: 40px 0 40px 0;

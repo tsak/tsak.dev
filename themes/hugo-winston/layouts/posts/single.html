@@ -8,6 +8,9 @@
     {{ end }}
     <div class="intro">
       <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+      {{ if .Params.subtitle }}
+      <h2 class="subtitle">{{ .Params.subtitle }}</h2>
+      {{ end }}
       {{ if .Params.image }}
       <img src="{{ .Params.image | relURL }}" />
       {{ end }}
