@@ -4,7 +4,7 @@ write:
 	hugo server --disableFastRender --buildDrafts 
 
 build:
-	hugo --verbose
+	hugo --logLevel info
 
 compress: build
 	find ./public \( -name "*.html" -or -name "*.xml" -or -name "*.css" -or -name "*.js" \) -exec gzip --verbose --keep --force {} \;
