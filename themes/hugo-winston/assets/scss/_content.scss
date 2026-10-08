@@ -135,14 +135,23 @@ ul {
   pre {
     font-family: var(--font-family-monospace);
   }
+  code {
+    font-size: 0.85em;
+  }
+  pre code {
+    font-size: inherit;
+  }
   p code {
-    color: #e01e5a;
+    color: #1c2a96;
+    background: #f0f0f2;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
   }
   .highlight {
     pre {
       border-radius: 3px;
-      font-size: 14px;
-      line-height: 18px;
+      font-size: 16px;
+      line-height: 1.5;
       padding: 30px;
       overflow: auto;
       font-family: var(--font-family-monospace);
