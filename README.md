@@ -4,7 +4,7 @@ Look mum, I have a blog.
 
 ## Prerequisites
 
-- [Hugo](https://gohugo.io/) (tested with 0.80)
+- [Hugo](https://gohugo.io/) (tested with 0.167.0)
 - [GNU make](https://www.gnu.org/software/make/)
 
 ## Usage
