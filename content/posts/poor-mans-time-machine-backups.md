@@ -3,7 +3,7 @@ title: A poor man's Time Machine backup
 date: 2026-10-07
 image: images/time-machine.png
 caption: Ever seen a rad handbag with an old timey clock built-in?
-description: How to bring the original Time Machine experience to Linux
+description: How to bring the original Time Machine experience to Linux with rsync, hard-linked snapshots and a systemd trigger, all without root
 tags: ['time machine', 'linux', 'backup', 'rsync', 'systemd']
 ---
 
